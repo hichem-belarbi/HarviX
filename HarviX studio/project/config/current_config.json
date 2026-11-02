@@ -1,0 +1,90 @@
+{
+  "assignments": [
+    {
+      "slot_id": 6,
+      "type": "I2C",
+      "devices": [
+        {
+          "uid": 1,
+          "model": "BH1750",
+          "quantity": "light_lux",
+          "i2c_address": "0x23"
+        }
+      ]
+    },
+    {
+      "slot_id": 8,
+      "type": "ADC",
+      "devices": [
+        {
+          "uid": 2,
+          "model": "NTC",
+          "quantity": "temperature"
+        }
+      ]
+    }
+  ],
+  "outputs_active": [],
+  "rules": [
+    {
+      "rule_id": 5,
+      "priority": 0,
+      "enabled": true,
+      "text": "re1:\ncurrent(device1) > 20.0 & current(device2) < 100.0 => stream",
+      "structured": {
+        "name": "re1",
+        "conditions": [
+          {
+            "primitive": "current",
+            "device": "device1",
+            "window": null,
+            "operator": ">",
+            "rhs": 20.0
+          },
+          {
+            "primitive": "current",
+            "device": "device2",
+            "window": null,
+            "operator": "<",
+            "rhs": 100.0
+          }
+        ],
+        "actions": [
+          {
+            "action": "stream",
+            "output": null,
+            "param": null
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": 6,
+      "priority": 0,
+      "enabled": true,
+      "text": "re2:\ncurrent(device1) < 50.0 => stream",
+      "structured": {
+        "name": "re2",
+        "conditions": [
+          {
+            "primitive": "current",
+            "device": "device1",
+            "window": null,
+            "operator": "<",
+            "rhs": 50.0
+          }
+        ],
+        "actions": [
+          {
+            "action": "stream",
+            "output": null,
+            "param": null
+          }
+        ]
+      }
+    }
+  ],
+  "period_ms": 100,
+  "stream_enabled": true,
+  "log_enabled": false
+}

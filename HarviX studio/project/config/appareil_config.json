@@ -1,0 +1,27 @@
+{
+  "board_name": "STM32F429I-DISC1 Smart Datalogger",
+  "slots": [
+    {"id": 1,  "type": "SPI",     "bus": "SPI1", "label": "SPI 1",     "max_devices": 1},
+    {"id": 2,  "type": "SPI",     "bus": "SPI1", "label": "SPI 2",     "max_devices": 1},
+    {"id": 3,  "type": "SPI",     "bus": "SPI1", "label": "SPI 3",     "max_devices": 1},
+    {"id": 4,  "type": "SPI",     "bus": "SPI4", "label": "SPI 4",     "max_devices": 1},
+    {"id": 5,  "type": "SPI",     "bus": "SPI4", "label": "SPI 5",     "max_devices": 1},
+    {"id": 6,  "type": "I2C",     "bus": "I2C2", "label": "I2C 1",     "max_devices": 6},
+    {"id": 7,  "type": "I2C",     "bus": "I2C3", "label": "I2C 2",     "max_devices": 6},
+    {"id": 8,  "type": "ADC",     "bus": "ADC1", "label": "ADC 1",     "max_devices": 1},
+    {"id": 9,  "type": "ADC",     "bus": "ADC1", "label": "ADC 2",     "max_devices": 1},
+    {"id": 10, "type": "ADC",     "bus": "ADC1", "label": "ADC 3",     "max_devices": 1},
+    {"id": 11, "type": "ADC",     "bus": "ADC1", "label": "ADC 4",     "max_devices": 1},
+    {"id": 12, "type": "ADC",     "bus": "ADC1", "label": "ADC 5",     "max_devices": 1},
+    {"id": 13, "type": "Digital", "bus": "TIM4", "label": "Digital 1", "max_devices": 1},
+    {"id": 14, "type": "Digital", "bus": "TIM4", "label": "Digital 2", "max_devices": 1}
+  ],
+  "outputs": [
+    {"id": 1, "type": "digital", "label": "Sortie 1"},
+    {"id": 2, "type": "digital", "label": "Sortie 2"},
+    {"id": 3, "type": "digital", "label": "Sortie 3"},
+    {"id": 4, "type": "digital", "label": "Sortie 4"},
+    {"id": 5, "type": "pwm",     "label": "Servo 1"},
+    {"id": 6, "type": "pwm",     "label": "Servo 2"}
+  ]
+}

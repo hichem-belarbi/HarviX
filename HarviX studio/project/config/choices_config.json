@@ -1,0 +1,24 @@
+{
+  "sensors": [
+    {"model": "BMP280",    "bus_compatible": ["SPI","I2C"], "quantities": ["temperature","pressure"],      "addresses": ["0x76","0x77"], "color": "#E67E22"},
+    {"model": "LM75",      "bus_compatible": ["I2C"],       "quantities": ["temperature"],                 "addresses": ["0x48","0x49","0x4A","0x4B"], "color": "#3498DB"},
+    {"model": "AHT20",     "bus_compatible": ["I2C"],       "quantities": ["temperature","humidity"],      "addresses": ["0x38"], "color": "#1ABC9C"},
+    {"model": "BH1750",    "bus_compatible": ["I2C"],       "quantities": ["light_lux"],                   "addresses": ["0x23","0x5C"], "color": "#F1C40F"},
+    {"model": "INA219",    "bus_compatible": ["I2C"],       "quantities": ["current","voltage","power"],   "addresses": ["0x40","0x41","0x44","0x45"], "color": "#E74C3C"},
+    {"model": "MAX31865",  "bus_compatible": ["SPI"],       "quantities": ["temperature"],                 "addresses": [], "color": "#9B59B6"},
+    {"model": "NTC",       "bus_compatible": ["ADC"],       "quantities": ["temperature"],                 "addresses": [], "color": "#E74C3C"},
+    {"model": "ACS712",    "bus_compatible": ["ADC"],       "quantities": ["current"],                     "addresses": [], "color": "#C0392B"},
+    {"model": "DHT11",     "bus_compatible": ["Digital"],   "quantities": ["temperature","humidity"],      "addresses": [], "color": "#2ECC71"},
+    {"model": "DHT22",     "bus_compatible": ["Digital"],   "quantities": ["temperature","humidity"],      "addresses": [], "color": "#27AE60"},
+    {"model": "DS18B20",   "bus_compatible": ["Digital"],   "quantities": ["temperature"],                 "addresses": [], "color": "#16A085"}
+  ],
+  "quantities": {
+    "temperature": {"label": "Température", "unit": "°C"},
+    "pressure":    {"label": "Pression",    "unit": "hPa"},
+    "humidity":    {"label": "Humidité",    "unit": "%RH"},
+    "voltage":     {"label": "Tension",     "unit": "V"},
+    "current":     {"label": "Courant",     "unit": "mA"},
+    "power":       {"label": "Puissance",   "unit": "mW"},
+    "light_lux":   {"label": "Luminosité",  "unit": "lux"}
+  }
+}

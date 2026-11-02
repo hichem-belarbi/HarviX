@@ -1,0 +1,4 @@
+../Core/Src/test_rules_debug.c:135:13:load_rule	432	static
+../Core/Src/test_rules_debug.c:247:13:process_rules_cmd	16	static
+../Core/Src/test_rules_debug.c:273:13:rules_monitor_task	248	static
+../Core/Src/test_rules_debug.c:318:6:test_rules_debug_main	48	static

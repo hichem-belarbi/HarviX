@@ -1,0 +1,13 @@
+../Core/Src/primitives.c:9:16:fetch_window	32	static
+../Core/Src/primitives.c:31:13:prim_current	16	static
+../Core/Src/primitives.c:36:13:prim_mean	104	static
+../Core/Src/primitives.c:50:13:prim_slope	128	static
+../Core/Src/primitives.c:71:13:prim_stddev	120	static
+../Core/Src/primitives.c:90:13:prim_min	104	static
+../Core/Src/primitives.c:101:13:prim_max	104	static
+../Core/Src/primitives.c:115:13:prim_monotonicity	104	static
+../Core/Src/primitives.c:131:13:prim_noise_level	120	static
+../Core/Src/primitives.c:150:13:prim_deriv_time	184	static
+../Core/Src/primitives.c:164:13:prim_delta_last	32	static
+../Core/Src/primitives.c:181:13:prim_near_multiple	32	static
+../Core/Src/primitives.c:197:6:Primitive_Eval	24	static

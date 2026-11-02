@@ -1,0 +1,5 @@
+../Core/Src/ntc_driver.c:25:13:ntc_supports_bus	16	static
+../Core/Src/ntc_driver.c:30:13:ntc_supports_quantity	16	static
+../Core/Src/ntc_driver.c:35:12:ntc_init	32	static
+../Core/Src/ntc_driver.c:47:12:ntc_read	64	static
+../Core/Src/ntc_driver.c:93:13:ntc_deinit	16	static

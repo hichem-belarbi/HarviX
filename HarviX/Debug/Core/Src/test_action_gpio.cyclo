@@ -1,0 +1,2 @@
+../Core/Src/test_action_gpio.c:75:13:action_gpio_task	8
+../Core/Src/test_action_gpio.c:126:6:test_action_gpio_main	1

@@ -1,0 +1,5 @@
+../Core/Src/i2c_helper.c:18:6:I2C_RecoverBus	7
+../Core/Src/i2c_helper.c:62:6:I2C_IsDevicePresent	6
+../Core/Src/i2c_helper.c:94:19:I2C_SafeTransmit	6
+../Core/Src/i2c_helper.c:121:19:I2C_SafeReceive	6
+../Core/Src/i2c_helper.c:146:19:I2C_SafeMemRead	6

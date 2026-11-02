@@ -1,0 +1,25 @@
+{
+  "assignments": [
+    {
+      "slot_id": 1,
+      "type": "SPI",
+      "devices": [
+        {
+          "uid": 1,
+          "model": "BMP280",
+          "quantity": "pressure"
+        },
+        {
+          "uid": 2,
+          "model": "BMP280",
+          "quantity": "temperature"
+        }
+      ]
+    }
+  ],
+  "outputs_active": [],
+  "rules": [],
+  "period_ms": 500,
+  "stream_enabled": true,
+  "log_enabled": true
+}

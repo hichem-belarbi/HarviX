@@ -1,0 +1,9 @@
+../Core/Src/history_buffer.c:23:24:find_or_create	24	static
+../Core/Src/history_buffer.c:40:30:find	24	static
+../Core/Src/history_buffer.c:49:16:physical_index	24	static
+../Core/Src/history_buffer.c:62:6:History_Init	8	static
+../Core/Src/history_buffer.c:67:6:History_Reset	8	static
+../Core/Src/history_buffer.c:72:6:History_Push	32	static
+../Core/Src/history_buffer.c:84:9:History_GetCount	24	static
+../Core/Src/history_buffer.c:90:6:History_GetValue	24	static
+../Core/Src/history_buffer.c:98:6:History_GetTimestamp	24	static

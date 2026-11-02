@@ -1,0 +1,5 @@
+../Core/Src/bh1750_driver.c:29:13:bh1750_supports_bus	16	static
+../Core/Src/bh1750_driver.c:34:13:bh1750_supports_quantity	16	static
+../Core/Src/bh1750_driver.c:55:12:bh1750_init	48	static
+../Core/Src/bh1750_driver.c:123:12:bh1750_read	56	static
+../Core/Src/bh1750_driver.c:151:13:bh1750_deinit	32	static

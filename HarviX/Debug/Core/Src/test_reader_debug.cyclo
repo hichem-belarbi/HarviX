@@ -1,0 +1,4 @@
+../Core/Src/test_reader_debug.c:185:13:load_config_table	4
+../Core/Src/test_reader_debug.c:224:13:process_debug_command	11
+../Core/Src/test_reader_debug.c:300:13:debug_monitor_task	3
+../Core/Src/test_reader_debug.c:350:6:test_debug_main	1

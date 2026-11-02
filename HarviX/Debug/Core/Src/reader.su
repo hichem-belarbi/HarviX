@@ -1,0 +1,14 @@
+../Core/Src/reader.c:38:6:Reader_Init	40	static
+../Core/Src/reader.c:61:13:init_slots_from_board	2696	static
+../Core/Src/reader.c:166:6:Reader_StartTask	48	static
+../Core/Src/reader.c:200:5:Reader_AssignSensor	32	static
+../Core/Src/reader.c:295:5:Reader_ClearSlot	32	static
+../Core/Src/reader.c:311:5:Reader_ClearDevice	48	static
+../Core/Src/reader.c:334:6:Reader_ClearAll	16	static
+../Core/Src/reader.c:342:5:Reader_GetSlotInfo	24	static
+../Core/Src/reader.c:355:6:Reader_StartAcquisition	4	static
+../Core/Src/reader.c:356:6:Reader_StopAcquisition	4	static
+../Core/Src/reader.c:358:6:Reader_SetPeriod	16	static
+../Core/Src/reader.c:369:13:reader_task_fn	440	static
+../Core/Src/reader.c:464:16:find_slot	16	static
+../Core/Src/reader.c:470:20:get_bus_mutex	16	static

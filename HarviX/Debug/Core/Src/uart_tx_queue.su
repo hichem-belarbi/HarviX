@@ -1,0 +1,7 @@
+../Core/Src/uart_tx_queue.c:9:6:tx_queue_init	16	static,ignoring_inline_asm
+../Core/Src/uart_tx_queue.c:15:13:post	16	static
+../Core/Src/uart_tx_queue.c:20:6:tx_post_live_data	136	static
+../Core/Src/uart_tx_queue.c:32:6:tx_post_alert	136	static
+../Core/Src/uart_tx_queue.c:44:6:tx_post_cmd_response	128	static
+../Core/Src/uart_tx_queue.c:53:6:tx_post_heartbeat	128	static
+../Core/Src/uart_tx_queue.c:65:6:tx_post_rule_event	128	static

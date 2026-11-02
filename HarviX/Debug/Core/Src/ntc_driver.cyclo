@@ -1,0 +1,5 @@
+../Core/Src/ntc_driver.c:25:13:ntc_supports_bus	1
+../Core/Src/ntc_driver.c:30:13:ntc_supports_quantity	3
+../Core/Src/ntc_driver.c:35:12:ntc_init	2
+../Core/Src/ntc_driver.c:47:12:ntc_read	5
+../Core/Src/ntc_driver.c:93:13:ntc_deinit	2

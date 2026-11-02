@@ -1,0 +1,5 @@
+../Core/Src/i2c_helper.c:18:6:I2C_RecoverBus	24	static
+../Core/Src/i2c_helper.c:62:6:I2C_IsDevicePresent	32	static
+../Core/Src/i2c_helper.c:94:19:I2C_SafeTransmit	40	static
+../Core/Src/i2c_helper.c:121:19:I2C_SafeReceive	40	static
+../Core/Src/i2c_helper.c:146:19:I2C_SafeMemRead	48	static

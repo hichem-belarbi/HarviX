@@ -1,0 +1,10 @@
+../Core/Src/rx.c:63:6:rx_queue_init	3
+../Core/Src/rx.c:84:6:rx_start	2
+../Core/Src/rx.c:109:6:uart_rx_task	12
+../Core/Src/rx.c:185:13:inline_handle_ping	1
+../Core/Src/rx.c:199:13:inline_handle_sync_request	1
+../Core/Src/rx.c:208:13:inline_handle_get_status	1
+../Core/Src/rx.c:222:12:uart_read	2
+../Core/Src/rx.c:228:13:uart_transmit_locked	1
+../Core/Src/rx.c:237:13:tx_push	3
+../Core/Src/rx.c:250:13:tx_nack	1

@@ -1,0 +1,10 @@
+../Core/Src/rx.c:63:6:rx_queue_init	32	static,ignoring_inline_asm
+../Core/Src/rx.c:84:6:rx_start	16	static,ignoring_inline_asm
+../Core/Src/rx.c:109:6:uart_rx_task	360	static
+../Core/Src/rx.c:185:13:inline_handle_ping	16	static
+../Core/Src/rx.c:199:13:inline_handle_sync_request	24	static
+../Core/Src/rx.c:208:13:inline_handle_get_status	24	static
+../Core/Src/rx.c:222:12:uart_read	24	static
+../Core/Src/rx.c:228:13:uart_transmit_locked	16	static
+../Core/Src/rx.c:237:13:tx_push	280	static
+../Core/Src/rx.c:250:13:tx_nack	24	static
