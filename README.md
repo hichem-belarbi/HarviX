@@ -239,4 +239,6 @@ The project was presented at **ACTIA**.
 
 ## License
 
-TODO: choose a license (e.g. MIT for software, CERN-OHL for hardware). See [`LICENSE`](LICENSE).
+Copyright (C) 2026 Hichem Belarbi, Samer Rebaie, Iskander Chaouechi
+
+This project is licensed under the **GNU General Public License v3.0**. You are free to use, study, modify and share it, but any distributed derivative work must also be released under the GPL v3 with its source code available. See the [`LICENSE`](LICENSE) file for the full text.
