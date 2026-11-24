@@ -227,7 +227,7 @@ The full mapping lives in [`firmware/include/board_config.h`](firmware/include/b
 | Name |
 |------|
 | Hichem Belarbi |
-| Samer Rebaie |
+| Samer Rebai |
 | Iskander Chaouechi |
 
 Embedded Systems Engineering, 2nd year, end-of-term project, carried out at the **Faculty of Sciences of Tunis** (Faculté des Sciences de Tunis).
